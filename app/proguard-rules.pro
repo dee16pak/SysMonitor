@@ -1,0 +1,6 @@
+-keep class com.dee16pak.sysmonitor.** { *; }
+-keep interface com.dee16pak.sysmonitor.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn com.squareup.okhttp3.**
+-dontwarn retrofit2.**
